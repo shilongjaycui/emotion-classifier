@@ -3,4 +3,4 @@ install:
 	pip install datasets
 	pip install -U scikit-learn
 	pip install ipykernel
-	pip install matplotlib
+	pip install matplotlib seaborn
