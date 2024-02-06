@@ -1,2 +1,2 @@
-# mental-health-insights
-This is Jay's data science project on mental health.
+# emotion-classifier
+This is Jay's data science project on classifying the emotion behind a sentence.
