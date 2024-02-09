@@ -1,8 +1,8 @@
 # `emotion-classifier`
 A simple classification model that tries to answer the following question: What emotion (anger, fear, joy, love, sadness, surprise) does a message (sentence) display?
 
-## Motivation (Why)
-1. As an MLOps engineer, [Jay](https://www.linkedin.com/in/shilongjaycui/) wants to be able to empathize with his customers (data scientists) by becoming a data scientist himself.
+## Motivation
+1. As an ML platform engineer, [Jay](https://www.linkedin.com/in/shilongjaycui/) wants to be able to empathize with his customers (data scientists) by becoming a data scientist himself.
 2. Jay wants to answer data science questions related to mental health.
 
 ## Workflow (What)
@@ -29,7 +29,7 @@ A simple classification model that tries to answer the following question: What 
 ## Installation (How)
 1. Clone this repo on your local machine:
    ```bash
-   $ git@github.com:shilongjaycui/emotion-classifier.git
+   $ git clone git@github.com:shilongjaycui/emotion-classifier.git
    ```
 2. Navigate into the cloned repo:
    ```bash
