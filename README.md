@@ -1,5 +1,5 @@
 # `emotion-classifier`
-A simple classification model that tries to answer the following question: What emotion (anger, fear, joy, love, sadness, surprise) does a message(sentence) display?
+A simple classification model that tries to answer the following question: What emotion (anger, fear, joy, love, sadness, surprise) does a message (sentence) display?
 
 ## Motivation
 1. As an MLOps engineer, [Jay](https://www.linkedin.com/in/shilongjaycui/) wants to be able to empathize with his customers (data scientists) by becoming a data scientist himself.
