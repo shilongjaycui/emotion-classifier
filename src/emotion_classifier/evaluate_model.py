@@ -3,22 +3,17 @@ from numpy import ndarray
 from pandas import DataFrame
 from typing import List, Dict
 from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, precision_recall_curve, auc, confusion_matrix
 from matplotlib import pyplot as plt
 import seaborn as sns
+from joblib import load
 
 from data import DATASET, EMOTION_DICT, set_display_options
-from exploratory_data_analysis import X, y
+from analyze_data import X, y
+from train_model import MODEL_FNAME
 
 # Set display options
 set_display_options()
-
-model: Pipeline = Pipeline([
-    ('tfidf', TfidfVectorizer()),
-    ('clf', RandomForestClassifier())
-])
 
 X_test: List = DATASET['test']['text']
 y_test: List = DATASET['test']['label']
@@ -31,7 +26,7 @@ def examine_misclassifications(df: DataFrame, predicted_label: str, actual_label
     print(df[condition])
 
 if __name__ == '__main__':
-    model.fit(X, y)
+    model: Pipeline = load(filename=MODEL_FNAME)
 
     print(f'dataset column names: {DATASET.column_names}\n')
 
