@@ -1,4 +1,3 @@
-import pandas as pd
 from pandas import Series, DataFrame
 
 from data import DATASET, EMOTION_DICT, set_display_options

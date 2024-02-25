@@ -44,4 +44,19 @@ A simple classification model that tries to answer the following question: What 
    ```bash
    $ make install
    ```
-5. Run the cells in the Jupyter Notebook (`emotion_classifier.ipynb`).
+5. Navigate into the Python package (`src/emotion_classifier`):
+   ```bash
+   $ cd src/emotion_classifier
+   ```
+6. Do exploratory data analysis ([EDA](https://en.wikipedia.org/wiki/Exploratory_data_analysis)):
+   ```bash
+   $ python analyze_data.py
+   ```
+7. Train the model:
+   ```bash
+   $ python train_model.py
+   ```
+8. Evaluate the model:
+   ```bash
+   $ python evaluate_model.py
+   ```

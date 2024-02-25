@@ -9,7 +9,6 @@ import seaborn as sns
 from joblib import load
 
 from data import DATASET, EMOTION_DICT, set_display_options
-from analyze_data import X, y
 from train_model import MODEL_FNAME
 
 # Set display options
