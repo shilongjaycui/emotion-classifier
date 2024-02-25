@@ -21,7 +21,7 @@ A simple classification model that tries to answer the following question: What 
 - precision-recall curves
 - confusion matrix
 
-#### *TODO:*
+#### Next steps:
 - Figure out if the current model is too smart of too dumb by plotting learning curves.
 - Augment the data (especially the "surprise" category, the most difficult one to classify) with more samples and more features, possibly using ChatGPT.
 - Gain insights into why the model is having a hard time telling the difference bewteen joy (1) and love (2).
